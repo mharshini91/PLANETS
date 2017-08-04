@@ -1,0 +1,65 @@
+    1  man man
+    2  git
+    3  cd github
+    4  mkdir EXAMPLE
+    5  cd example
+    6  EXAMPLE ls -lah
+    7  ls-lah
+    8  ls
+    9  ls -lah
+   10  git init
+   11  ls -lah
+   12  cd .git
+   13  ls -lah
+   14  cat config
+   15  cat description
+   16  cd ..
+   17  cd ..
+   18  ls ~/.gitconfig
+   19  git config --global user.name "Harshini Mohan"
+   20  git config --global user.email "mharshini91@gmail.com"
+   21  git config --global color.ui "auto"
+   22  git config --global core.editor "nano -w"
+   23  nano .gitconfig
+   24  history >> history.txt
+   25  mkdir PLANETS
+   26  git init
+   27  cd planets
+   28  git init
+   29  git status
+   30  nano mars.txt
+   31  ls -lah
+   32  git status
+   33  git add mars.txt
+   34  git status
+   35  git commit -m "Start notes on Mars as a base"
+   36  git status
+   37  cat mars.txt
+   38  git log
+   39  nano mars.txt
+   40  git status
+   41  cat mars.txt
+   42  git status
+   43  git diff
+   44  git commit -m "Added info about Wolfman"
+   45  git status
+   46  git add mars.txt
+   47  git commit -m "Added info about Wolfman"
+   48  git status
+   49  nano mars.txt
+   50  history >> history1.txt
+   51  git diff
+   52  git add mars.txt
+   53  git commit -m "added info abt mummy"
+   54  git status
+   55  git diff
+   56  git diff mars.txt
+   57  git diff --staged
+   58  cat mars.txt
+   59  git log
+   60  nano mars.txt
+   61  git diff HEAD mars.txt
+   62  cat mars.txt
+   63  git log
+   64  git checkout bc6612
+   65  history >> history2.txt
